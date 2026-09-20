@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NGDP TECH — modern technology and digital solutions for growing businesses.">
+  <title>NGDP TECH — Next Gen Dannizone Pro Tech</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="/">NGDP <span>TECH</span></a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Start Project</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">NEXT GEN DIGITAL TECHNOLOGY</p>
+        <h1>Build smarter.<br><span>Launch faster.</span></h1>
+        <p class="hero-text">Professional websites, digital systems and technology solutions designed to turn ideas into real business opportunities.</p>
+        <div class="actions">
+          <a class="button primary" href="#contact">Start a Project</a>
+          <a class="button secondary" href="#services">Explore Services</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="orb"></div>
+        <div class="mini-card">
+          <small>NGDP TECH</small>
+          <strong>Digital systems<br>that move business.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <p class="eyebrow">WHAT WE BUILD</p>
+      <h2>Technology with a business purpose.</h2>
+      <div class="grid">
+        <article class="service"><b>01</b><h3>Web Development</h3><p>Fast, responsive business websites and landing pages.</p></article>
+        <article class="service"><b>02</b><h3>Business Systems</h3><p>Lead forms, dashboards and workflows that reduce manual work.</p></article>
+        <article class="service"><b>03</b><h3>Digital Solutions</h3><p>Custom technology concepts built around your real requirements.</p></article>
+        <article class="service"><b>04</b><h3>Growth Setup</h3><p>Analytics-ready foundations for turning traffic into opportunities.</p></article>
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div><p class="eyebrow">NGDP TECH</p><h2>From first idea to working product.</h2></div>
+      <div><p>We focus on practical digital products: clean interfaces, secure backend systems, useful automation and infrastructure that can grow with the business.</p></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">START A PROJECT</p>
+        <h2>Tell us what you want to build.</h2>
+        <p>Your message goes directly into our secure lead pipeline.</p>
+      </div>
+      <form id="leadForm" class="form">
+        <label>Name<input name="name" required maxlength="120" autocomplete="name"></label>
+        <label>Email<input name="email" type="email" required maxlength="200" autocomplete="email"></label>
+        <label>Project message<textarea name="message" required maxlength="4000" rows="6" placeholder="What do you want to build?"></textarea></label>
+        <button class="button primary" type="submit">Send Project Request</button>
+        <p id="formMessage" class="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> NGDP TECH</span><a href="/owner.html">Owner</a></footer>
+  <script src="/app.js"></script>
+</body>
+</html>
